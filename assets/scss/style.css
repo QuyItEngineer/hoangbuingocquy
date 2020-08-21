@@ -40,7 +40,7 @@
 
 .logo { height: 50px; }
 
-#home { background-image: url("../../assets/images/test02.jpg"); background-repeat: no-repeat; background-size: cover; position: relative; }
+#home { background-image: url("../../assets/images/hoang-bui-ngoc-quy_background.jpg"); background-repeat: no-repeat; background-size: cover; position: relative; }
 #home:before { background-color: rgba(0, 0, 0, 0.4); }
 
 .home-area { background-color: #121E29; background-position: center center; height: 100vh; overflow: hidden; }
