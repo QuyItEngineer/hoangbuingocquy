@@ -69,13 +69,13 @@
 .about-me__block2--end { padding: 10px 0px; border-left: solid 5px #009e66; }
 
 .help-you { background-color: #06121F; color: #FFFFFF; }
-.help-you__block1 { background-color: #83109E; padding-top: 20px; border-radius: 10px; height: 80vh; text-align: justify; }
+.help-you__block1 { background-color: #83109E; padding-top: 20px; border-radius: 10px; height: 90vh; text-align: justify; }
 .help-you__block1 span { font-size: 7rem; }
 .help-you__block1 p { margin: 10% 5%; font-size: 1.2rem; }
-.help-you__block2 { background-color: #F27736; padding-top: 20px; border-radius: 10px; height: 80vh; text-align: justify; }
+.help-you__block2 { background-color: #F27736; padding-top: 20px; border-radius: 10px; height: 90vh; text-align: justify; }
 .help-you__block2 span { font-size: 7rem; }
 .help-you__block2 p { margin: 10% 5%; font-size: 1.2rem; }
-.help-you__block3 { background-color: #005235; padding-top: 20px; border-radius: 10px; height: 80vh; text-align: justify; }
+.help-you__block3 { background-color: #005235; padding-top: 20px; border-radius: 10px; height: 90vh; text-align: justify; }
 .help-you__block3 span { font-size: 7rem; }
 .help-you__block3 p { margin: 10% 5%; font-size: 1.2rem; }
 
