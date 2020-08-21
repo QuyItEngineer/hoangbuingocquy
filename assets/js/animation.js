@@ -72,6 +72,6 @@ setInterval(() => {
 	} 
 	setUpCharacters(indexLoop++);
 	triggerCharacters();
-}, 3000);
+}, 2000);
   
   
