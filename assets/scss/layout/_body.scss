@@ -1,0 +1,166 @@
+@mixin block() {
+    padding-top: 20px;
+    border-radius: 10px;
+    height: 80vh;
+    text-align: justify;
+    span {
+        font-size: 7rem;
+    }
+    p {
+        margin: 10% 5%;
+        font-size: 1.2rem;
+    }
+}
+.ht-100 {
+    height: 100%;
+}
+.h-100vh {
+    height: 100vh;
+}
+.h-90vh {
+    height: 90vh;
+}
+.h-95vh {
+    height: 95vh;
+}
+.about-me {
+    background-color: #06121F;
+    color: #FFFFFF;
+    &__block1 {
+        height: 100%;
+        margin: 50% auto;
+        @media only screen and (max-width: 992px) {
+            margin: 20% auto;
+        }
+        &--image {
+            background-color: #acacac;
+            border-radius: 50%;
+            width: 250px
+        }
+    }
+    &__block2 {
+        // border-left: solid 5px $collor_button;
+        height: 100%;
+        span {
+            color: $collor_button;
+            margin-left: 2px;
+        }
+        p {
+            padding: 0px 40px;
+            text-align: justify;
+            color: $collor_text;
+        }
+        &--first {
+            padding: 10px 0px;
+            border-bottom: solid 1px #949494;
+            border-left: solid 5px $collor_button;
+        }
+        &--middle {
+            // margin-top: 5px;
+            padding: 10px 0px;
+            border-bottom: solid 1px #949494;
+            border-left: solid 5px $collor_button;
+        }
+        &--end {
+            // margin-top: 5px;
+            padding: 10px 0px;
+            border-left: solid 5px $collor_button;
+        }
+    }
+}
+.help-you {
+    background-color: #06121F;
+    color: #FFFFFF;
+    &__block1 {
+        background-color: #83109E;
+        @include block();
+    }
+    &__block2 {
+        background-color: #F27736;
+        @include block();
+    }
+    &__block3 {
+        background-color: #005235;
+        @include block();
+    }
+}
+.contact-me {
+    background-color: #121E29;
+    color: #FFFFFF;
+    &__block-link {
+        font-size: 3rem;
+        span {
+            margin: 0px 15px;
+        }
+        a {
+            color: $collor_text_main
+        }
+        .a-facebook {
+            &:hover {
+                color: $fb-color;
+            }
+        }
+        .a-linkedin {
+            &:hover {
+                color: $linked-color;
+            }
+        }
+        .a-youtube {
+            &:hover {
+                color: #EB1034;
+            }
+        }
+        .a-messenger {
+            &:hover {
+                color: $fb-color;
+            }
+        }
+    }
+    &__block-form {
+        &--write-now {
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+        &--input {
+            display: flex;
+            justify-content: space-between;
+            padding: 2px;
+            background-color: #f0be2d;
+            border-radius: 5px;
+            input {
+                width: 70%;
+                float: right;
+                color: #ffffff;
+                background-color: #121E29;
+                // border: 0px;
+                font-size: 1.5rem;
+                border-radius: 5px;
+                &:focus {
+                    color: #ffffff;
+                    background-color: #121E29;
+                    border-color: #f0be2d !important;
+                }
+            }
+            button {
+                width: 30%;
+                float: left;
+                font-size: 1.5rem;
+                color: white;
+                background-color: #EB1034;
+                border-color: #EB1034;
+                &:hover {
+                    color: #acacac;
+                    background-color: #d8092c;
+                }
+            }
+        }
+    }
+}
+
+// @media only screen and (max-width: 992px) {
+//     .about-me__block1 {
+//         margin: 20% auto;
+//     }
+// }
