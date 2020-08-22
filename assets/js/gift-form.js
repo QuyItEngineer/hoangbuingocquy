@@ -15,7 +15,7 @@ form.addEventListener('submit', e => {
 
 	e.preventDefault()
 	fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-		.then(response => function() {
+		.then((response) => {
 			alert('Thành Công. Quà đang trên đường tới!')
 			console.log('Success!', response)
 		})
