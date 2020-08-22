@@ -142,7 +142,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-5 mb-5">
                             <div class="contact-me__block-form">
-                                <form>
+                                <form name="submit-to-google-sheet" id="submit-to-google-sheet">
                                     <div class="form-group text-center">
                                         <div class="form-content mb-5">
                                             <h5>Internet đang lớn mạnh, và tôi có quà cho bạn đây.</h5>
@@ -154,7 +154,7 @@
                                             </span>
                                         </label>
                                         <div class="contact-me__block-form--input">
-                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nhập Email ngay">
+                                            <input type="email" id="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nhập Email ngay">
                                             <button type="submit" class="btn gift-button"><strong>FREE</strong></button>
                                         </div>                                      
                                         <small id="emailHelp" class="form-text text-muted">Chúng tôi đảm bảo không chia sẻ thông tin email của quý khách cho bất kỳ ai!</small>
@@ -177,5 +177,10 @@
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../assets/js/animation.js"></script>
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+    <script src="../assets/js/gift-form.js"></script>
+
 </body>
 </html>
