@@ -6,8 +6,6 @@ form.addEventListener('submit', e => {
 	fetch(scriptURL, { 
 		method: 'POST', 
 		body: new FormData(form),
-		mode: 'cors',
-		credentials: 'include',
 		headers: {
 			'Content-Type': 'text/plain;charset=utf-8',
 		}
