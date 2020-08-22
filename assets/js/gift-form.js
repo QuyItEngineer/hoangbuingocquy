@@ -10,10 +10,7 @@ form.addEventListener('submit', e => {
 			'Content-Type': 'text/plain;charset=utf-8',
 		}
 	})
-		.then(response => function() {
-			// alert('Thành Công. Quà đang trên đường tới!')
-			console.log('Success!', response)
-		})
+		.then(response => console.log('Success!', response))
 		.catch(error => console.error('Error!', error.message))
 })
 	
