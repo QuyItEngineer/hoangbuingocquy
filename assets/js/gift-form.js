@@ -11,7 +11,7 @@ form.addEventListener('submit', e => {
 		}
 	})
 		.then(response => function() {
-			alert('Thành Công. Quà đang trên đường tới!')
+			// alert('Thành Công. Quà đang trên đường tới!')
 			console.log('Success!', response)
 		})
 		.catch(error => console.error('Error!', error.message))
