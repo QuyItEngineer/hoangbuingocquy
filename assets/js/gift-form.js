@@ -2,14 +2,19 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycby4wWP2L5NO0AHJMraLL8
 const form = document.forms['submit-to-google-sheet']
 
 form.addEventListener('submit', e => {
+	// e.preventDefault()
+	// fetch(scriptURL, { 
+	// 	method: 'POST', 
+	// 	body: new FormData(form),
+	// 	headers: {
+	// 		'Content-Type': 'text/plain;charset=utf-8',
+	// 	}
+	// })
+	// 	.then(response => console.log('Success!', response))
+	// 	.catch(error => console.error('Error!', error.message))
+
 	e.preventDefault()
-	fetch(scriptURL, { 
-		method: 'POST', 
-		body: new FormData(form),
-		headers: {
-			'Content-Type': 'text/plain;charset=utf-8',
-		}
-	})
+	fetch(scriptURL, { method: 'POST', body: new FormData(form)})
 		.then(response => console.log('Success!', response))
 		.catch(error => console.error('Error!', error.message))
 })
